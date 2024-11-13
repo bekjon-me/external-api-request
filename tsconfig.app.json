@@ -1,0 +1,24 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "moduleResolution": "Bundler",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["resources/vue/src/*"]
+    },
+    "types": [
+      "vite-plugin-vue-layouts/client",
+      "unplugin-vue-router/client"
+    ]
+  },
+  "include": [
+    "resources/vue/env.d.ts",
+    "resources/vue/src/**/*",
+    "tailwind.config.ts",
+    "resources/vue/src/typed-router.d.ts",
+    "resources/vue/src/**/*.vue"
+  ],
+  "exclude": ["resources/vue/src/**/__tests__/*"]
+}

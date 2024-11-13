@@ -1,0 +1,103 @@
+{
+  "version": "0.7.4",
+  "button": {
+    "root": "font-primary rounded-lg disabled:opacity-100 inline-flex items-center justify-center disabled:cursor-not-allowed gap-2",
+    "variant": {
+      "main": "shadow-base-transparent shadow bg-brand-main hover:bg-brand-main-hover active:bg-brand-main-active disabled:bg-brand-main-disabled fill-icon-brandonsurface-main hover:fill-icon-brandonsurface-main-hover active:fill-icon-brandonsurface-main-active disabled:fill-icon-brandonsurface-main-disabled text-brandonsurface-main hover:text-brandonsurface-main-hover active:text-brandonsurface-main-active disabled:text-brandonsurface-main-disabled border-brand-main hover:border-brand-main-hovered active:border-brand-main-active disabled:border-brand-main-disabled border-0 border-t-0 border-b-0 border-r-0 border-l-0",
+      "secondary": "bg-default-main hover:bg-brand-subtlest-hover active:bg-brand-subtlest-active disabled:bg-brand-subtlest-disabled fill-icon-brandonsurface-subtle hover:fill-icon-brandonsurface-subtle-hover active:fill-icon-brandonsurface-subtle-active disabled:fill-icon-brandonsurface-subtle-disabled text-brandonsurface-subtle hover:text-brandonsurface-subtle-hover active:text-brandonsurface-subtle-active disabled:text-brandonsurface-subtle-disabled border-brand-main hover:border-brand-main-hovered active:border-brand-main-active disabled:border-brand-main-disabled border border-t border-b border-r border-l",
+      "tertiary": "bg-default-main hover:bg-default-subtlest-hover active:bg-default-subtlest-active disabled:bg-default-subtlest-disabled fill-icon-default-subtle hover:fill-icon-default-subtle-hover active:fill-icon-default-subtle-active disabled:fill-icon-default-subtle-disabled text-default-subtle hover:text-default-subtle-hover active:text-default-subtle-active disabled:text-default-subtle-disabled border-default-subtle hover:border-default-subtle-hovered active:border-default-subtle-active disabled:border-default-subtle-disabled border border-t border-b border-r border-l",
+      "destructive": "bg-negative-main hover:bg-negative-main-hover active:bg-negative-main-active disabled:bg-negative-main-disabled fill-icon-negativeonsurface-main hover:fill-icon-negativeonsurface-main-hover active:fill-icon-negativeonsurface-main-active disabled:fill-icon-negativeonsurface-main-selected text-negativeonsurface-main hover:text-negativeonsurface-main-hover active:text-negativeonsurface-main-active disabled:text-negativeonsurface-main-selected border-negative-main hover:border-negative-main-hovered active:border-negative-main-active disabled:border-negative-main-disabled border-0 border-t-0 border-b-0 border-r-0 border-l-0",
+      "ghost": "bg-transparent hover:bg-default-subtle-hover active:bg-default-subtle-active disabled:bg-transparent fill-icon-default-main hover:fill-icon-default-main-hover active:fill-icon-default-main-active disabled:fill-icon-default-main-disabled text-default-main hover:text-default-main-hover active:text-default-main-active disabled:text-default-main-disabled border-base-transparent hover:border-base-transparent active:border-base-transparent disabled:border-base-transparent border-0",
+      "ghostmain": "bg-transparent hover:bg-brand-subtlest-hover active:bg-brand-subtlest-active disabled:bg-transparent fill-icon-brand-main hover:fill-icon-brand-main-hover active:fill-icon-brand-main-active disabled:fill-icon-brand-main-disabled text-brand-main hover:text-brand-main-hover active:text-brand-main-active disabled:text-brand-main-disabled border-base-transparent hover:border-base-transparent active:border-base-transparent disabled:border-base-transparent",
+      "link": "fill-icon-brand-main hover:fill-icon-brand-main-hover active:fill-icon-brand-main-active disabled:fill-icon-brand-main-disabled text-brand-main hover:text-brand-main-hover active:text-brand-main-active disabled:text-brand-main-disabled",
+      "linkdestructive": "fill-icon-negative-main hover:fill-icon-negative-main-hover active:fill-icon-negative-main-active disabled:fill-icon-negative-main-disabled text-negative-main hover:text-negative-main-hover active:text-negative-main-active disabled:text-negative-main-disabled"
+    },
+    "size": {
+      "default": "text-sm font-medium tracking-0 pl-4 pr-4 h-10",
+      "sm": "text-sm font-medium tracking-0 pl-3 pr-3 h-9",
+      "lg": "text-base font-medium tracking-0 pl-4 pr-4 h-11"
+    },
+    "icon": {
+      "root": "gap-2",
+      "size": {
+        "sm": "4",
+        "default": "5",
+        "lg": "6"
+      },
+      "color": {
+        "main": "text-icon-brandonsurface-main hover:text-icon-brandonsurface-main-hover active:text-icon-brandonsurface-main-active disabled:text-icon-brandonsurface-main-disabled",
+        "secondary": "text-icon-brandonsurface-subtle hover:text-icon-brandonsurface-subtle-hover active:text-icon-brandonsurface-subtle-active disabled:text-icon-brandonsurface-subtle-disabled",
+        "destructive": "text-icon-negativeonsurface-main hover:text-icon-negativeonsurface-main-hover active:text-icon-negativeonsurface-main-active disabled:text-icon-negativeonsurface-main-disabled",
+        "ghost": "text-icon-default-main hover:text-icon-default-main-hover active:text-icon-default-main-active disabled:text-icon-default-main-disabled",
+        "outline": "text-icon-default-subtle hover:text-icon-default-subtle-hover active:text-icon-default-subtle-active disabled:text-icon-default-subtle-disabled",
+        "ghostmain": "text-icon-brand-main hover:text-icon-brand-main-hover active:text-icon-brand-main-active disabled:text-icon-brand-main-disabled",
+        "link": "text-icon-brand-main hover:text-icon-brand-main-hover active:text-icon-brand-main-active disabled:text-icon-brand-main-disabled"
+      }
+    },
+    "iconPosition": {
+      "prefix": {
+        "small": "pl-2",
+        "default": "pl-3",
+        "large": "pl-3"
+      },
+      "suffix": {
+        "small": "pr-2",
+        "default": "pr-3",
+        "large": "pr-3"
+      },
+      "default": {
+        "small": "pl-2 pr-2 w-9",
+        "default": "pl-3 pr-3 w-10",
+        "large": "pl-3 pr-3 w-11"
+      }
+    },
+    "fullwidth": {
+      "false": "",
+      "true": "w-full"
+    },
+    "defaultVariants": {
+      "variant": "main",
+      "size": "default"
+    }
+  },
+  "alert": {
+    "root": "relative w-full rounded-lg gap-3 p-4 [&>svg~*]:pl-7 [&>svg+div]:translate-y-[-3px] [&>svg]:absolute [&>svg]:left-4 [&>svg]:top-4 font-primary",
+    "variant": {
+      "default": "bg-default-subtlest border-default-subtle border [&>svg]:text-icon-default-main text-default-main",
+      "info": "bg-info-subtlest border-info-main border [&>svg]:text-icon-info-strong text-info-strong",
+      "destructive": "bg-negative-subtlest border-negative-main border [&>svg]:text-icon-negative-main text-negative-main"
+    },
+    "defaultVariants": {
+      "variant": "default"
+    }
+  },
+  "avatar": {
+    "root": "font-primary relative border-brand-main flex shrink-0 overflow-hidden",
+    "size": {
+      "sm": "h-10 w-10 text-sm",
+      "base": "h-16 w-16 text-2xl",
+      "lg": "h-32 w-32 text-5xl"
+    },
+    "shape": {
+      "circle": "rounded-full",
+      "square": "rounded-md"
+    },
+    "defaultVariants": {
+      "size": "base",
+      "shape": "circle"
+    }
+  },
+  "badge": {
+    "root": "font-primary pt-0.5 pb-0.5 pl-2.5 pr-2.5 hover:opacity-80 rounded-full text-xs leading-snug font-semibold items-center justify-center box-border h-5 inline-flex",
+    "variant": {
+      "main": "bg-brand-main border-transparent border text-brandonsurface-main",
+      "secondary": "bg-brand-subtle border-transparent border text-brand-main",
+      "tertiary": "bg-transparent border-default-strong border text-default-main",
+      "destructive": "bg-negative-main border-negative-main border text-negativeonsurface-main",
+      "success": "bg-positive-main border-transparent border text-positiveonsurface-main"
+    },
+    "defaultVariants": {
+      "variant": "main"
+    }
+  }
+}
