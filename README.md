@@ -1,6 +1,8 @@
 # This is laravel and vue 3 template, uses sail.
 
-First, we have to install packages and build our frontend assets
+First, you have to create .env file in root folder and copy .env.example file content to .env file. You can change configurations if you want
+
+And then, we have to install packages and build our frontend assets
 
 ```shell
 composer install
