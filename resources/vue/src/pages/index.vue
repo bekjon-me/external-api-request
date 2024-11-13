@@ -1,15 +1,13 @@
 <script setup lang="ts">
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 </script>
 
 <template>
   <main class="h-full flex-col flex justify-center items-center gap-2">
-    Hi there, I am a shadcn button
     <Button variant="destructive">
-      Hi this is me
+      {{ t('button') }}
     </Button>
-    <Icon name="Sun" />
-    <RouterLink to="/about">
-      About
-    </RouterLink>
   </main>
 </template>
