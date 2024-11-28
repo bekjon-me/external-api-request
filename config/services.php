@@ -35,4 +35,7 @@ return [
         ],
     ],
 
+    'weather' => [
+      'app_id' => env('OPEN_WEATHER_MAP_API_KEY'),
+    ]
 ];
