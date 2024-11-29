@@ -16,11 +16,12 @@ class WeatherService
 
   public function getWeather(WeatherDTO $weather): JsonResponse|WeatherResource
   {
-    Log::info($weather->city_name);
       $response = Http::get('https://api.openweathermap.org/data/2.5/weather', [
         'q' => $weather->city_name,
         'appid' => config('services.weather.app_id'),
       ]);
+
+      Log::info($response);
 
       if($response->successful()) {{
         return new WeatherResource($response->json());

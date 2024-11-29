@@ -20,7 +20,7 @@ class WeatherResource extends JsonResource
           'lon' => $this['coord']['lon'],
           'lat' => $this['coord']['lat'],
           'weather' => $this['weather'][0]['main'],
-          'temperature' => TemperatureHelper::fahrenheitToCelsius($this['main']['temp']),
+          'temperature' => TemperatureHelper::kelvinToCelsius($this['main']['temp']),
           'humidity' => $this['main']['humidity'],
           'city' => $this['name']
         ];
