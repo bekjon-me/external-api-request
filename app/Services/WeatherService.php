@@ -21,8 +21,6 @@ class WeatherService
         'appid' => config('services.weather.app_id'),
       ]);
 
-      Log::info($response);
-
       if($response->successful()) {{
         return new WeatherResource($response->json());
       }}
